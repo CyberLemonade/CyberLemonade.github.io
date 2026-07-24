@@ -9,19 +9,35 @@
        COLOR PALETTE
        ====================================================== */
 
-    --bg: #FAFAF8;
-
-    --hero-bg: #6F4E37;
-    --hero-text: #FAFAF8;
-
-    --text: #222222;
-    --muted: #666666;
-
-    --accent: #6F4E37;
-    --accent-hover: #8A6A3D;
-
-    --divider: #E8E2D4;
-
+   /* BROWN AND GOLD: */
+   
+   /* --bg: #FAFAF8;
+   
+   --hero-bg: #6F4E37;
+   --hero-text: #FAFAF8;
+   
+   --text: #222222;
+   --muted: #666666;
+   
+   --accent: #6F4E37;
+   --accent-hover: #8A6A3D;
+   
+   --divider: #E8E2D4;
+    */
+   
+   /* CHELSEA BLUE: */
+   --bg: #FAFAF8;
+   
+   --hero-bg: #2D4965;
+   --hero-text: #F8FAFC;
+   
+   --text: #1F2933;
+   --muted: #5B6773;
+   
+   --accent: #2F5D8C;
+   --accent-hover: #416F9E;
+   
+   --divider: #DCE6F2;
 
     /* ======================================================
        TYPOGRAPHY
