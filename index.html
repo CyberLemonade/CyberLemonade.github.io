@@ -1,66 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Diptaksho Palit</title>
-  
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="icon" type="image/png" href="assets/favicon.png">
+    <meta charset="UTF-8">
+    <title>Diptaksho Palit</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- IBM Plex Sans -->
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Geist Mono (self-host later if desired) -->
+    <link href="https://fonts.cdnfonts.com/css/geist-mono" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
 </head>
 
-<script>
-  fetch("/partials/nav.html")
-    .then(response => response.text())
-    .then(data => {
-      document.getElementById("navbar-placeholder").innerHTML = data;
-    });
-</script>
-  
 <body>
-  <div class="container">
 
-    <!-- navbar -->
-    <div id="navbar-placeholder"></div>
-    
-    <!-- about -->
-    <div class="docs-section" id="about">
+    <nav>
+        <a href="index.html">home</a>
+        <a href="more.html">more</a>
+    </nav>
 
-      <!-- title -->
-      <h2 class="title" style="margin-bottom: 0;">Diptaksho Palit</h2>
-      <h6>Ph.D. student @ Boston University</h6>
+    <main>
 
-      <!-- picture + intro -->
-      <div class="row">
-        
-        <!-- picture -->
-        <div class="three columns">
-          <img src="assets/me.jpg" alt="Photo of Diptaksho Palit"
-               style="max-width: 100%; border-radius: 8px;">
-        </div>
+        <!-- ===================================================== -->
+        <!-- HERO -->
+        <!-- ===================================================== -->
 
-        <!-- intro -->
-        <div class="nine columns">
-          <p>
-            I am a Ph.D. student at the
-            <a href="https://www.bu.edu/cs" target="_blank"> Department of Computer Science, Boston University</a>,
-            where I am advised by 
-            <a href="https://cs-people.bu.edu/sofya/" target="_blank">Prof. Sofya Raskhodnikova</a>. 
-            I completed my undergraduate degree in mathematics and computer science at 
-            <a href="https://www.cmi.ac.in/" target="_blank">Chennai Mathematical Institute</a>. 
-          </p>
-  
-          <p>
-            My research interests are in computational complexity and property testing.
-            You can find my CV
-            <a href="/assets/cv.pdf" target="_blank">here</a>. 
-          </p>
-  
-          <p>
-            <strong>Email:</strong> 
-            <a href="mailto:dpalit@bu.edu">dpalit [at] bu [dot] edu</a>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
+        <header class="hero">
+            <img src="assets/me.jpeg" class="hero-photo" alt="profile picture">
+            <div class="hero-content">
+                <h1 class="hero-name">Diptaksho Palit</h1>
+                <h4 class="hero-affiliation">Ph.D. Student @ Boston University</h4>
+                <!-- <p class="hero-location">Boston, MA, USA</p> -->
+                <div class="hero-links">
+                    <a href="mailto:dpalit@bu.edu" target="_blank">
+                        dpalit [at] bu [dot] edu
+                    </a>
+                    <span>&middot;</span>
+                    <a href="assets/cv.pdf" target="_blank">
+                        CV
+                    </a>
+                    <span>&middot;</span>
+                    <a href="https://scholar.google.com/citations?user=Om_omtkAAAAJ&hl=en" target="_blank">
+                        Google Scholar
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- ===================================================== -->
+        <!-- ABOUT -->
+        <!-- ===================================================== -->
+
+        <section id="about">
+            <h2 class="section-title">About</h2>
+            <p>
+                I am a Ph.D. student at the
+                <a href="https://www.bu.edu/cs" target="_blank">Department of Computer Science, Boston University</a>,
+                in the
+                <a href="https://www.bu.edu/tcs" target="_blank">Theoretical Computer Science (TCS) research group</a>,
+                where I am advised by
+                <a href="https://cs-people.bu.edu/sofya/" target="_blank">Prof. Sofya Raskhodnikova</a>. 
+                I completed my undergraduate degree in mathematics and computer science at
+                <a href="https://www.cmi.ac.in/" target="_blank">Chennai Mathematical Institute</a>.
+            </p>
+            <p>
+                My research focuses on computational complexity and property testing.
+                In property testing, I mostly work on query and time complexity lower bounds, though these insights sometimes lead to new upper bounds instead.
+                I am interested in investigating gaps between information-theoretic (query complexity) upper bounds and computational (time complexity) lower bounds for both learning and testing.
+                In complexity theory, I'm working on formalising relativisation to better understand it as a proof barrier and proof technique.
+            </p>
+            <details class="property-testing">
+                <summary>
+                    Properties tested &#x1F9EA;
+                </summary>
+                <ul>
+                    <li>halfspaces</li>
+                    <li>unate functions</li>
+                    <li>k-submodular functions</li>
+                    <li>parenthesis languages</li>
+                    <li>connected graphs</li>
+                    <li>k-edge-connected graphs</li>
+                </ul>
+            </details>
+        </section>
+
+        <!-- ===================================================== -->
+        <!-- PUBLICATIONS -->
+        <!-- ===================================================== -->
+
+        <section id="publications">
+            <h2 class="section-title">Publications</h2>
+
+            <div class="timeline">
+                <div class="timeline-year">
+                    2026
+                </div>
+
+                <div class="timeline-year-list">
+                    <article class="timeline-item">
+                        <h4 class="timeline-item-title">Testing k-submodularity</h4>
+                        <small class="timeline-item-authors">
+                            <a href="https://themisharis.com" target="_blank">Themistoklis Haris</a>,
+                            Diptaksho Palit
+                        </small>
+                        <div class="timeline-item-meta">RANDOM 2026
+                            <span class="separator">|</span>
+                                <a href="https://arxiv.org/pdf/2606.30433" target="_blank">arXiv</a>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <h4 class="timeline-item-title">Relative-error unateness testing</h4>
+                        <small class="timeline-item-authors">
+                            <a href="https://www.cs.columbia.edu/~xichen/" target="_blank">Xi Chen</a>,
+                            Diptaksho Palit,
+                            <a href="https://kabirp.github.io/" target="_blank">Kabir Peshawaria</a>,
+                            <a href="https://simons.berkeley.edu/people/william-pires" target="_blank">William Pires</a>,
+                            <a href="https://www.cs.columbia.edu/~rocco/" target="_blank">Rocco Servedio</a>,
+                            <a href="https://qwertyzyding.github.io/" target="_blank">Yiding Zhang</a>
+                        </small>
+                        <div class="timeline-item-meta">ICALP 2026
+                            <span class="separator">|</span>
+                                <a href="https://arxiv.org/pdf/2510.21589" target="_blank">arXiv</a>
+                                ·
+                                <a href="https://drops.dagstuhl.de/storage/00lipics/lipics-vol374-icalp2026/LIPIcs.ICALP.2026.62/LIPIcs.ICALP.2026.62.pdf" target="_blank">LIPIcs</a>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <h4 class="timeline-item-title">Computational Complexity in Property Testing</h4>
+                        <small class="timeline-item-authors">
+                            <a href="https://r4ferrei.github.io/" target="_blank">Renato Ferreira Pinto Jr.</a>,
+                            Diptaksho Palit,
+                            <a href="https://cs-people.bu.edu/sofya/" target="_blank">Sofya Raskhodnikova</a>
+                        </small>
+                        <div class="timeline-item-meta">SODA 2026
+                            <span class="separator">|</span>
+                                <a href="https://arxiv.org/pdf/2510.05927" target="_blank">arXiv</a>
+                                ·
+                                <a href="https://eccc.weizmann.ac.il/report/2025/185/" target="_blank">ECCC</a>
+                                ·
+                                <a href="https://epubs.siam.org/doi/10.1137/1.9781611978971.19" target="_blank">SIAM</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ===================================================== -->
+        <!-- TEACHING -->
+        <!-- ===================================================== -->
+
+        <section id="teaching">
+            <h2 class="section-title">Teaching</h2>
+
+            <div class="timeline">
+                <div class="timeline-year">
+                    Teaching Fellow
+                </div>
+
+                <div class="timeline-year-list">
+                    <article class="timeline-item">
+                        <h4 class="timeline-item-title">
+                            CS537: Randomness in Computing
+                        </h4>
+                        <small class="timeline-item-authors">
+                            Boston University
+                            <span class="separator">|</span>
+                            Spring 2026
+                            <span class="separator">|</span>
+                            <a href="https://cs-people.bu.edu/sofya/" target="_blank">Sofya Raskhodnikova</a>
+                        </small>
+                    </article>
+
+                    <article class="timeline-item">
+                        <h4 class="timeline-item-title">
+                            CS332: Theory of Computation
+                        </h4>
+                        <small class="timeline-item-authors">
+                            Boston University
+                            <span class="separator">|</span>
+                            Spring 2024
+                            <span class="separator">|</span>
+                            <a href="https://cs-people.bu.edu/mbun/" target="_blank">Mark Bun</a>
+                        </small>
+                    </article>
+                </div>
+
+                <div class="timeline-year">
+                    Teaching Assistant
+                </div>
+
+                <div class="timeline-year-list">
+                    <article class="timeline-item">
+                        <h4 class="timeline-item-title">CU2101: Design and Analysis of Algorithms</h4>
+                        <small class="timeline-item-authors">
+                            Chennai Mathematical Institute
+                            <span class="separator">|</span>
+                            Spring 2023
+                            <span class="separator">|</span>
+                            <a href="https://sites.google.com/view/nithin-varma/bio" target="_blank">Nithin Varma</a>,
+                            <a href="https://www.cmi.ac.in/~gphilip/" target="_blank">Geevarghese Philip</a>
+                        </small>
+                    </article>
+
+                    <article class="timeline-item">
+                        <h4 class="timeline-item-title">HU1101: English</h4>
+                        <small class="timeline-item-authors">
+                            Chennai Mathematical Institute
+                            <span class="separator">|</span>
+                            Fall 2022
+                            <span class="separator">|</span>
+                            Usha Mahadevan
+                        </small>
+                    </article>
+
+                    <article class="timeline-item">
+                        <h4 class="timeline-item-title">CU1101: Introduction to Programming (Haskell)</h4>
+                        <small class="timeline-item-authors">
+                            Chennai Mathematical Institute
+                            <span class="separator">|</span>
+                            Fall 2021, Fall 2022
+                            <span class="separator">|</span>
+                            <a href="https://www.cmi.ac.in/~spsuresh/" target="_blank">S P Suresh</a>
+                        </small>
+                    </article>
+
+                    <article class="timeline-item">
+                        <h4 class="timeline-item-title">CU1201: Advanced Programming</h4>
+                        <small class="timeline-item-authors">
+                            Chennai Mathematical Institute
+                            <span class="separator">|</span>
+                            Spring 2022
+                            <span class="separator">|</span>
+                            <a href="https://www.cmi.ac.in/~sdatta/" target="_blank">Samir Datta</a>
+                        </small>
+                    </article>
+
+                    <article class="timeline-item">
+                        <h4 class="timeline-item-title">MU1203: Discrete Mathematics</h4>
+                        <small class="timeline-item-authors">
+                            Chennai Mathematical Institute
+                            <span class="separator">|</span>
+                            Spring 2022
+                            <span class="separator">|</span>
+                            <a href="https://www.cmi.ac.in/~kv/" target="_blank">K V Subrahmanyam</a>
+                        </small>
+                    </article>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ===================================================== -->
+        <!-- SERVICE -->
+        <!-- ===================================================== -->
+
+        <section id="service">
+            <h2 class="section-title">Service</h2>
+
+            <p>
+                External reviewer for the following conferences.
+            </p>
+            <ul>
+                <li>RANDOM 2023, 2026</li>
+                <li>STOC 2025, 2026</li>
+                <li>CIAC 2025</li>
+            </ul>
+        </section>
+
+        <!-- ===================================================== -->
+        <!-- FOOTER -->
+        <!-- ===================================================== -->
+
+        <footer class="footer-note">Last updated: July 2026</footer>
+
+    </main>
+
 </body>
+
 </html>
