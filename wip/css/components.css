@@ -98,9 +98,7 @@ nav a:hover { color: var(--accent); }
    PROPERTY TESTING
    ========================================================== */
 
-.property-testing {
-    margin-top: 1.5rem;
-}
+.property-testing { margin-top: 1.5rem; }
 
 .property-testing summary {
     cursor: pointer;
@@ -108,6 +106,4 @@ nav a:hover { color: var(--accent); }
     color: var(--muted);
 }
 
-.property-testing[open] summary {
-    margin-bottom: 0.75rem;
-}
+.property-testing[open] summary { margin-bottom: 0.75rem; }
