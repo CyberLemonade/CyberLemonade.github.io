@@ -108,3 +108,18 @@ nav a:hover { color: var(--accent); }
 }
 
 .property-testing[open] summary { margin-bottom: 0.75rem; }
+
+/* ==========================================================
+   TOGGLE THEME BUTTON
+   ========================================================== */
+#theme-toggle {
+    border: none;
+    background: none;
+
+    padding: 0;
+
+    color: inherit;
+    font: inherit;
+
+    cursor: pointer;
+}
