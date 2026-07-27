@@ -124,6 +124,5 @@ nav a:hover { color: var(--accent); }
     cursor: pointer;
 }
 
-#theme-toggle::before { content: "☽"; }
-
-html[data-theme="dark"] #theme-toggle::before { content: "☀︎"; }
+/* #theme-toggle::before { content: "☽"; }
+html[data-theme="dark"] #theme-toggle::before { content: "☀︎"; } */
