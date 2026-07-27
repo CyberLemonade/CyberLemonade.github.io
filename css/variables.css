@@ -25,7 +25,7 @@
 /* ======================================================
    DARK MODE
    ====================================================== */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
    :root {
       --bg: #181A1D;
       
@@ -40,7 +40,7 @@
       
       --divider: #30363D;
    }
-}
+} */
 
 :root {
     /* ======================================================
@@ -49,4 +49,23 @@
 
     --font-body: "IBM Plex Sans", sans-serif;
     --font-mono: "Geist Mono", monospace;
+}
+
+/* ======================================================
+   DARK MODE
+   ====================================================== */
+html[data-theme="dark"] {
+
+    --bg: #1B1A17;
+
+    --hero-bg: #24384F;
+    --hero-text: #F7F5F0;
+
+    --text: #ECE7DD;
+    --muted: #B6AEA3;
+
+    --accent: #8DB6E8;
+    --accent-hover: #A2C8F5;
+
+    --divider: #37332E;
 }
