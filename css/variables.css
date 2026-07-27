@@ -35,16 +35,16 @@
    DARK MODE
    ====================================================== */
 html[data-theme="dark"] {
-   --bg: #191715;
+   --bg: #1E1C1A;
    
-   --hero-bg: #26231F;
-   --hero-text: #F5F2EB;
+   --hero-bg: #304C6A;
+   --hero-text: #F4F1EB;
    
-   --text: #E9E2D7;
-   --muted: #B5ADA1;
+   --text: #E8E3DA;
+   --muted: #AEA79B;
    
-   --accent: #C8A54A;
-   --accent-hover: #D8B860;
+   --accent: #7EA6D8;
+   --accent-hover: #A4C3EA;
    
-   --divider: #39332D;
+   --divider: #3A3632;
 }
