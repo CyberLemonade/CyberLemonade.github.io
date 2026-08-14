@@ -82,14 +82,17 @@ nav a:hover { color: var(--accent); }
 .publications-year-list { 
    display: flex;
    flex-direction: column;
-   gap: 1.4rem;
+   gap: 2rem;
 }
 
 .publications-item {
     display: flex;
     flex-direction: column;
     gap: 0.15rem;
-    margin: 0.3rem;
+   
+    margin: -0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
 }
 
 .publications-item:hover { background: var(--hover-bg); }
