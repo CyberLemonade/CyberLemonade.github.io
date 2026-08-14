@@ -109,15 +109,16 @@ nav a:hover { color: var(--accent); }
 
 .teaching {
    display: grid;
-   /* grid-template-columns: max-content max-content 1fr; */
-   /* column-gap: 2rem; */
+   grid-template-columns: max-content max-content 1fr;
+   column-gap: 2rem;
    row-gap: 2rem;
    align-items: start;
 }
 
 .teaching-item {
    display: grid;
-   grid-template-columns: max-content max-content 1fr;
+   grid-template-columns: subgrid;
+   grid-column: 1 / -1;
    column-gap: 2rem;
    
    padding: 0.5rem;
@@ -191,7 +192,7 @@ html[data-theme="dark"] #theme-toggle::before { content: "☀︎"; } */
    grid-template-columns: max-content 1fr;
    column-gap: 2rem;
    row-gap: 2rem;
-   align-items: start;
+   align-items: center;
 }
 
 .service-item-category { color: var(--muted); }
