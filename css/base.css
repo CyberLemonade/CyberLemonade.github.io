@@ -18,7 +18,7 @@ section { margin-bottom: 6rem; }
 
 h1 { font-size: 1.500rem; font-weight: 600; color: var(--accent); }
 h2 { font-size: 1.250rem; font-weight: 600; color: var(--accent); }
-h3 { font-size: 1.125rem; font-weight: 500; color: var(--accent); }
+h3 { font-size: 1.125rem; font-weight: 500; color: var(--text); }
 h4 { font-size: 1.000rem; font-weight: 500; color: var(--accent); }
 
 small { font-size: 0.750rem; }
