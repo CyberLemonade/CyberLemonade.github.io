@@ -126,3 +126,20 @@ nav a:hover { color: var(--accent); }
 
 /* #theme-toggle::before { content: "☽"; }
 html[data-theme="dark"] #theme-toggle::before { content: "☀︎"; } */
+
+/* ==========================================================
+   SECTION HEADER
+   ========================================================== */
+.section-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.section-header::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--divider);
+}
