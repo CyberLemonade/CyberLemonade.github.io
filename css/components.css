@@ -86,7 +86,7 @@ nav a:hover { color: var(--accent); }
    display: grid;
    grid-template-columns: max-content max-content 1fr;
    column-gap: 2rem;
-   row-gap: 1rem;
+   row-gap: 2rem;
    align-items: start;
 }
 
