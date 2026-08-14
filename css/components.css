@@ -186,9 +186,11 @@ html[data-theme="dark"] #theme-toggle::before { content: "☀︎"; } */
     padding: 0.3rem 0.6rem;
     border: 1px solid var(--divider);
     border-radius: 0.25rem;
-    font-family: var(--font-mono);
+    /* font-family: var(--font-mono); */
     font-size: var(--text-small);
 }
+
+.conference-badge:hover { background: var(--hover-bg); }
 
 /* ==========================================================
    FOOTER
