@@ -55,6 +55,7 @@ nav a:hover { color: var(--accent); }
    column-gap: 2rem;
    row-gap: 2rem;
    align-items: start;
+   margin: 0.15rem;
 }
 
 .publications-year {
