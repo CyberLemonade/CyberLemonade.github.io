@@ -46,6 +46,23 @@ nav a:hover { color: var(--accent); }
 .hero-links a:hover { opacity: 1; }
 
 /* ==========================================================
+   SECTION HEADER
+   ========================================================== */
+.section-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.section-header::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--divider);
+}
+
+/* ==========================================================
    PUBLICATIONS
    ========================================================== */
 
@@ -120,12 +137,6 @@ nav a:hover { color: var(--accent); }
 .simple-list li { margin-bottom: 0.9rem; }
 
 /* ==========================================================
-   FOOTER
-   ========================================================== */
-
-.footer-note { text-align: center; }
-
-/* ==========================================================
    PROPERTY TESTING
    ========================================================== */
 
@@ -175,3 +186,9 @@ html[data-theme="dark"] #theme-toggle::before { content: "☀︎"; } */
     font-family: var(--font-mono);
     font-size: var(--text-small);
 }
+
+/* ==========================================================
+   FOOTER
+   ========================================================== */
+
+.footer-note { text-align: center; }
