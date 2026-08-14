@@ -41,7 +41,10 @@ nav a:hover { color: var(--accent); }
 .hero-affiliation { color: var(--hero-text); font-weight: 400; margin: 0.5rem 0 0; }
 .hero-location { opacity: 0.85; margin: 0.5rem 0 0; }
 
-.hero-links { font-family: var(--font-mono); margin: 1.0rem 0 0; }
+.hero-links { 
+   /* font-family: var(--font-mono); */
+   margin: 1.0rem 0 0;
+}
 .hero-links a { color: var(--hero-text); opacity: 0.9; }
 .hero-links a:hover { opacity: 1; }
 
