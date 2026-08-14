@@ -128,6 +128,7 @@ nav a:hover { color: var(--accent); }
 
 .teaching-item-semester { color: var(--muted); }
 .teaching-item-role { color: var(--muted); }
+
 .teaching-item-details {
     display: flex;
     flex-direction: column;
@@ -135,8 +136,7 @@ nav a:hover { color: var(--accent); }
 }
 
 .teaching-item-details-title { margin: 0 0 0; }
-.teaching-item-details-authors { color: var(--muted); }
-.teaching-item-details-meta { font-family: var(--font-mono); color: var(--muted); }
+.teaching-item-details-staff { color: var(--muted); }
 
 /* ==========================================================
    SIMPLE LISTS
@@ -183,10 +183,20 @@ nav a:hover { color: var(--accent); }
 html[data-theme="dark"] #theme-toggle::before { content: "☀︎"; } */
 
 /* ==========================================================
-   CONFERENCE BADGES
+   SERVICE
    ========================================================== */
 
-.conference-badges {
+.service {
+   display: grid;
+   grid-template-columns: max-content 1fr;
+   column-gap: 2rem;
+   row-gap: 2rem;
+   align-items: start;
+}
+
+.service-item-category { color: var(--muted); }
+
+.service-item-badges {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
@@ -199,7 +209,6 @@ html[data-theme="dark"] #theme-toggle::before { content: "☀︎"; } */
     /* font-family: var(--font-mono); */
     font-size: var(--text-small);
 }
-
 .conference-badge:hover { background: var(--hover-bg); }
 
 /* ==========================================================
