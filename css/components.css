@@ -72,7 +72,6 @@ nav a:hover { color: var(--accent); }
    column-gap: 2rem;
    row-gap: 2rem;
    align-items: start;
-   margin: 0.15rem;
 }
 
 .publications-year {
@@ -83,13 +82,14 @@ nav a:hover { color: var(--accent); }
 .publications-year-list { 
    display: flex;
    flex-direction: column;
-   gap: 2rem;
+   gap: 1.4rem;
 }
 
 .publications-item {
     display: flex;
     flex-direction: column;
     gap: 0.15rem;
+    margin: 0.3rem;
 }
 
 .publications-item:hover { background: var(--hover-bg); }
