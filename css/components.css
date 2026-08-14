@@ -79,6 +79,30 @@ nav a:hover { color: var(--accent); }
 .timeline-item-meta { font-family: var(--font-mono); color: var(--muted); }
 
 /* ==========================================================
+   TEACHING
+   ========================================================== */
+
+.teaching {
+   display: grid;
+   grid-template-columns: max-content max-content 1fr;
+   column-gap: 2rem;
+   row-gap: 1rem;
+   align-items: start;
+}
+
+.teaching-item-semester { color: var(--muted); }
+.teaching-item-role { color: var(--muted); }
+.teaching-item-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+}
+
+.timeline-item-details-title { margin: 0 0 0; }
+.timeline-item-details-authors { color: var(--muted); }
+.timeline-item-details-meta { font-family: var(--font-mono); color: var(--muted); }
+
+/* ==========================================================
    SIMPLE LISTS
    ========================================================== */
 
@@ -112,6 +136,7 @@ nav a:hover { color: var(--accent); }
 /* ==========================================================
    TOGGLE THEME BUTTON
    ========================================================== */
+
 #theme-toggle {
     border: none;
     background: none;
