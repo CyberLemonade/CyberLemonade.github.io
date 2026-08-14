@@ -98,9 +98,9 @@ nav a:hover { color: var(--accent); }
     gap: 0.15rem;
 }
 
-.timeline-item-details-title { margin: 0 0 0; }
-.timeline-item-details-authors { color: var(--muted); }
-.timeline-item-details-meta { font-family: var(--font-mono); color: var(--muted); }
+.teaching-item-details-title { margin: 0 0 0; }
+.teaching-item-details-authors { color: var(--muted); }
+.teaching-item-details-meta { font-family: var(--font-mono); color: var(--muted); }
 
 /* ==========================================================
    SIMPLE LISTS
