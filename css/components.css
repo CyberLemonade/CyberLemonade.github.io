@@ -46,10 +46,10 @@ nav a:hover { color: var(--accent); }
 .hero-links a:hover { opacity: 1; }
 
 /* ==========================================================
-   TIMELINE
+   PUBLICATIONS
    ========================================================== */
 
-.timeline {
+.publications {
    display: grid;
    grid-template-columns: max-content 1fr;
    column-gap: 2rem;
@@ -57,26 +57,31 @@ nav a:hover { color: var(--accent); }
    align-items: start;
 }
 
-.timeline-year {
-   font-family: var(--font-mono);
+.publications-year {
+   /* font-family: var(--font-mono); */
    color: var(--muted); 
 }
 
-.timeline-year-list { 
+.publications-year-list { 
    display: flex;
    flex-direction: column;
    gap: 2rem;
 }
 
-.timeline-item {
+.publications-item {
     display: flex;
     flex-direction: column;
     gap: 0.15rem;
 }
 
-.timeline-item-title { margin: 0 0 0; }
-.timeline-item-authors { color: var(--muted); }
-.timeline-item-meta { font-family: var(--font-mono); color: var(--muted); }
+.publications-item:hover { background: var(--hover-bg); }
+
+.publications-item-title { margin: 0 0 0; }
+.publications-item-authors { color: var(--muted); }
+.publications-item-meta { 
+   /* font-family: var(--font-mono); */
+   color: var(--muted); 
+}
 
 /* ==========================================================
    TEACHING
