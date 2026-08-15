@@ -36,4 +36,6 @@ img { display: block; max-width: 100%; }
 
 .center { text-align: center; }
 
+.separator { margin: 0 0.5rem; }
+
 footer { padding: 1.5rem; color: var(--muted); font-family: var(--font-mono); }
