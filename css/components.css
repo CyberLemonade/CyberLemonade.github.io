@@ -220,3 +220,34 @@ html[data-theme="dark"] #theme-toggle::before { content: "☀︎"; } */
    ========================================================== */
 
 .footer-note { text-align: center; }
+
+/* ==========================================================
+   MORE HEADER
+   ========================================================== */
+
+.more-header {
+   text-align: center;
+   margin-bottom: 2rem;
+}
+
+.more-title {
+   /* font-family: var(--font-mono); */
+   font-size: 2rem;
+   letter-spacing: 0.15em;
+   margin-bottom: 2rem;
+}
+
+.more-image {
+   display: block;
+   width: 12rem;
+   margin: 0 auto 1.5rem;
+}
+
+.more-quote {
+   max-width: 30rem;
+   margin: 0 auto;
+   text-align: center;
+   font-family: var(--font-body);
+   font-style: italic;
+   font-size: 1.2rem;
+}
