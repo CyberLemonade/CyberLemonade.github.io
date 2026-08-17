@@ -21,7 +21,7 @@ nav a:hover { color: var(--accent); }
 .hero {
     background: var(--hero-bg);
     color: var(--hero-text);
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     padding: 3rem;
     display: flex;
     gap: 2rem;
@@ -32,7 +32,7 @@ nav a:hover { color: var(--accent); }
 .hero-photo {
     width: 10rem;
     height: 10rem;
-    border-radius: 0.3rem;
+    border-radius: 0.6rem;
     object-fit: cover;
     flex-shrink: 0;
 }
