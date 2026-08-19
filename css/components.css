@@ -143,17 +143,6 @@ nav a:hover { color: var(--accent); }
 .teaching-item-details-staff { color: var(--muted); }
 
 /* ==========================================================
-   SIMPLE LISTS
-   ========================================================== */
-
-.simple-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-.simple-list li { margin-bottom: 0.9rem; }
-
-/* ==========================================================
    PROPERTY TESTING
    ========================================================== */
 
