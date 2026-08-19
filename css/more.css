@@ -30,10 +30,10 @@
    SECTION SPLIT
    ========================================================== */
 
-.sec-split {
+.image-split {
     display: grid;
-    grid-template-columns: 4fr 3fr;
-    gap: 3rem;
+    grid-template-columns: 7fr 5fr;
+    gap: 2rem;
     /* align-items: center; */
 }
 
@@ -42,7 +42,7 @@
     display: block;
 } */
 
-.sec-split-image-caption {
+.image-caption {
     margin-top: 0.5rem;
     font-size: var(--text-small);
     color: var(--muted);
