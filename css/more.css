@@ -34,16 +34,6 @@
     display: grid;
     grid-template-columns: 7fr 5fr;
     gap: 2rem;
+    margin-top: 1rem;
     /* align-items: center; */
-}
-
-/* .sec-split-image {
-    width: 100%;
-    display: block;
-} */
-
-.image-caption {
-    margin-top: 0.5rem;
-    font-size: var(--text-small);
-    color: var(--muted);
 }
