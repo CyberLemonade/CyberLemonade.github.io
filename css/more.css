@@ -1,5 +1,5 @@
 /* ==========================================================
-   MORE HEADER
+   HEADER
    ========================================================== */
 
 .more-header {
@@ -24,4 +24,26 @@
   /* text-align: center; */
   font-style: italic;
   color: var(--muted);
+}
+
+/* ==========================================================
+   SECTION SPLIT
+   ========================================================== */
+
+.sec-split {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.sec-split-image {
+    width: 100%;
+    display: block;
+}
+
+.sec-caption {
+    margin-top: 0.5rem;
+    font-size: var(--text-small);
+    color: var(--muted);
 }
