@@ -37,10 +37,10 @@
     align-items: center;
 }
 
-.sec-split-image {
+/* .sec-split-image {
     width: 100%;
     display: block;
-}
+} */
 
 .sec-split-image-caption {
     margin-top: 0.5rem;
