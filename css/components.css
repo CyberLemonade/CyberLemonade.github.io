@@ -2,7 +2,6 @@
    NAVIGATION
    ========================================================== */
 
-/* nav, main { max-width: 700px; margin: 2rem auto; } */
 nav, main { max-width: 60rem; margin: 2rem auto; }
 
 nav {
@@ -15,38 +14,20 @@ nav a { color: var(--text); font-weight: 500; }
 nav a:hover { color: var(--accent); }
 
 /* ==========================================================
-   HERO
+   TOGGLE THEME BUTTON
    ========================================================== */
 
-.hero {
-    background: var(--hero-bg);
-    color: var(--hero-text);
-    border-radius: 1rem;
-    padding: 3rem;
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-    margin: 0 0 4rem;
-}
+#theme-toggle {
+    border: none;
+    background: none;
 
-.hero-photo {
-    width: 10rem;
-    height: 10rem;
-    border-radius: 0.6rem;
-    object-fit: cover;
-    flex-shrink: 0;
-}
+    padding: 0;
 
-.hero-name { color: var(--hero-text); margin: 0 0 0; }
-.hero-affiliation { color: var(--hero-text); font-weight: 400; margin: 0.5rem 0 0; }
-.hero-location { opacity: 0.85; margin: 0.5rem 0 0; }
+    color: inherit;
+    font: inherit;
 
-.hero-links { 
-   /* font-family: var(--font-mono); */
-   margin: 1.0rem 0 0;
+    cursor: pointer;
 }
-.hero-links a { color: var(--hero-text); opacity: 0.9; }
-.hero-links a:hover { opacity: 1; }
 
 /* ==========================================================
    SECTION HEADER
@@ -66,178 +47,7 @@ nav a:hover { color: var(--accent); }
 }
 
 /* ==========================================================
-   PUBLICATIONS
-   ========================================================== */
-
-.publications {
-   display: grid;
-   grid-template-columns: max-content 1fr;
-   column-gap: 2rem;
-   row-gap: 2rem;
-   align-items: start;
-}
-
-.publications-year {
-   /* font-family: var(--font-mono); */
-   color: var(--muted); 
-}
-
-.publications-year-list { 
-   display: flex;
-   flex-direction: column;
-   gap: 2rem;
-}
-
-.publications-item {
-    display: flex;
-    flex-direction: column;
-    gap: 0.15rem;
-   
-    margin: -0.5rem;
-    padding: 0.5rem;
-    border-radius: 0.25rem;
-}
-.publications-item:hover { background: var(--hover-bg); }
-
-.publications-item-title { margin: 0 0 0; }
-.publications-item-authors { color: var(--muted); }
-.publications-item-meta { 
-   /* font-family: var(--font-mono); */
-   color: var(--muted); 
-}
-
-/* ==========================================================
-   TEACHING
-   ========================================================== */
-
-.teaching {
-   display: grid;
-   grid-template-columns: max-content max-content 1fr;
-   column-gap: 2rem;
-   row-gap: 2rem;
-   align-items: start;
-}
-
-.teaching-item {
-   display: grid;
-   grid-template-columns: subgrid;
-   grid-column: 1 / -1;
-   column-gap: 2rem;
-   
-   padding: 0.5rem;
-   margin: -0.5rem;
-   border-radius: 0.25rem;
-}
-.teaching-item:hover { background: var(--hover-bg); }
-
-.teaching-item-semester { color: var(--muted); }
-.teaching-item-role { color: var(--muted); }
-
-.teaching-item-details {
-    display: flex;
-    flex-direction: column;
-    gap: 0.15rem;
-}
-
-.teaching-item-details-title { margin: 0 0 0; }
-.teaching-item-details-staff { color: var(--muted); }
-
-/* ==========================================================
-   PROPERTY TESTING
-   ========================================================== */
-
-.property-testing { margin-top: 1.5rem; }
-
-.property-testing summary {
-    cursor: pointer;
-    font-family: var(--font-mono);
-    color: var(--muted);
-}
-
-.property-testing[open] summary { margin-bottom: 0.75rem; }
-
-/* ==========================================================
-   TOGGLE THEME BUTTON
-   ========================================================== */
-
-#theme-toggle {
-    border: none;
-    background: none;
-
-    padding: 0;
-
-    color: inherit;
-    font: inherit;
-
-    cursor: pointer;
-}
-
-/* #theme-toggle::before { content: "☽"; }
-html[data-theme="dark"] #theme-toggle::before { content: "☀︎"; } */
-
-/* ==========================================================
-   SERVICE
-   ========================================================== */
-
-.service {
-   display: grid;
-   grid-template-columns: max-content 1fr;
-   column-gap: 2rem;
-   row-gap: 2rem;
-   align-items: center;
-}
-
-.service-item-category { color: var(--muted); }
-
-.service-item-badges {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-}
-
-.conference-badge {
-    padding: 0.3rem 0.6rem;
-    border: 1px solid var(--divider);
-    border-radius: 0.25rem;
-    /* font-family: var(--font-mono); */
-    font-size: var(--text-small);
-}
-.conference-badge:hover { background: var(--hover-bg); }
-
-/* ==========================================================
    FOOTER
    ========================================================== */
 
 .footer-note { text-align: center; }
-
-/* ==========================================================
-   MORE HEADER
-   ========================================================== */
-
-.more-header {
-   text-align: center;
-   margin-bottom: 4rem;
-}
-
-.more-title {
-   /* font-family: var(--font-mono); */
-   /* font-size: 2rem; */
-   letter-spacing: 0.15em;
-   margin-bottom: 2rem;
-}
-
-.more-image {
-   display: block;
-   width: 12rem;
-   margin: 0 auto 1.5rem;
-}
-
-.more-quote {
-   /* max-width: 30rem; */
-   margin: 0 auto;
-   /* text-align: center; */
-   /* font-family: var(--font-body); */
-   font-style: italic;
-   color: var(--muted);
-   /* font-size: 1.2rem; */
-}
