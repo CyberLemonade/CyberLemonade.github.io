@@ -39,18 +39,3 @@ img { display: block; max-width: 100%; }
 .separator { margin: 0 0.5rem; }
 
 footer { padding: 1.5rem; color: var(--muted); }
-
-/* ==========================================================
-   NAVIGATION
-   ========================================================== */
-
-nav, main { max-width: 60rem; margin: 2rem auto; }
-
-nav {
-    gap: 2rem;
-    display: flex;
-    justify-content: flex-end;
-}
-
-nav a { color: var(--text); font-weight: 500; }
-nav a:hover { color: var(--accent); }
