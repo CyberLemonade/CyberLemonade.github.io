@@ -54,48 +54,37 @@
 } */
 
 :root {
-    --font-heading: "Syne", -apple-system, sans-serif;
-    --font-body: "Inter", -apple-system, sans-serif;
-    --font-mono: "JetBrains Mono", monospace;
+    /* Fonts */
+   --font-body: "IBM Plex Sans", sans-serif;
+   --font-heading: "IBM Plex Sans", sans-serif;
+   --font-mono: "Geist Mono", monospace;
 
-    /* ======================================================
-       LIGHT MODE - Softened Hero & Crisp Structure
-       ====================================================== */
-    --bg: #FAFAFA;
-    --hover-bg: #F0EDED;
-    
-    /* Hero: Lighter, richer wine tint (less harsh dark block) */
-    --hero-bg: #3B121F;         
-    --hero-text: #FAFAFA;
-    
-    --text: #18181B;
-    --muted: #52525B;
-    
-    --accent: #9F1239;          /* Bold Burgundy */
-    --accent-hover: #BE123C;
-    
-    /* Higher-contrast borders so divisions are clearly visible */
-    --divider: #D4D4D8;
+    /* Light */
+    --bg: #F4F0E8;
+    --text: #252525;
+    --muted: #756F65;
+
+    --hero-bg: #174A7E;
+
+    --accent: #B08A3E;
+    --accent-hover: #8F6D2D;
+
+    --divider: #C9C1B5;
+    --hover-bg: #EAE4D9;
 }
 
 html[data-theme="dark"] {
-    /* ======================================================
-       DARK MODE - Matching Burgundy Palette + High-Contrast Structure
-       ====================================================== */
-    --bg: #120D10;              /* Dark base with subtle wine tone */
-    --hover-bg: #2B1D23;
-    
-    /* Hero: Clearly lifted surface (2 steps lighter than bg) */
-    --hero-bg: #23161C;         
-    --hero-text: #FAFAFA;
-    
-    --text: #F4F4F5;            
-    --muted: #A1A1AA;
-    
-    /* Accent: Radiant Rose-Wine (Matches light mode's burgundy identity) */
-    --accent: #FB7185;          
-    --accent-hover: #F43F5E;
-    
-    /* Punchy divider contrast (prevents elements from blending together) */
-    --divider: #443038;
+    /* Dark */
+    --bg: #171614;
+    --text: #E8E1D5;
+    --muted: #AAA093;
+
+    --hero-bg: #203B58;
+
+    --accent: #D0AA55;
+    --accent-hover: #E0BD6C;
+
+    --divider: #39342D;
+    --hover-bg: #24211D;
 }
+
