@@ -7,7 +7,7 @@
    COLOR PALETTE
    ====================================================== */
    
-/* :root {   
+:root {   
    --bg: #FAFAF8;
    --hover-bg: #F2F4F6;
    
@@ -21,7 +21,7 @@
    --accent-hover: #416F9E;
    
    --divider: #DCE6F2;
-} */
+}
 
 
 /* ======================================================
@@ -39,7 +39,7 @@
    DARK MODE
    ====================================================== */
 
-/* html[data-theme="dark"] {
+html[data-theme="dark"] {
    --bg: #15191F;
    --hover-bg: #242321;
 
@@ -52,35 +52,4 @@
    --accent: #8DB7EA;
    
    --divider: #2E3947;
-} */
-
-:root {
-   --bg: #ffffff;
-   --hover-bg: #f0ece6;
-
-   --hero-bg: #17365d;
-   --hero-text: #f4f0e8;
-   
-   --text: #292725;
-   --muted: #77716a;
-   
-   --accent: #7a263a;
-   
-   --divider: #d2cbc1;
 }
-
-html[data-theme="dark"] {
-   --bg: #171619;
-   --hover-bg: #242126;
-   
-   --hero-bg: #233e60;
-   --hero-text: #f4f0e8;
-   
-   --text: #e6e0d8;
-   --muted: #a49b91;
-   
-   --accent: #b35a6c;
-   
-   --divider: #373238;
-}
-
