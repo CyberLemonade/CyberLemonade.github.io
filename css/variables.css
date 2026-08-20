@@ -23,23 +23,6 @@
    --divider: #DCE6F2;
 } */
 
-:root {   
-    --bg: #FAFAFA;
-    
-    --hover-bg: #F4F4F5;
-    
-    --hero-bg: #18181B;
-    --hero-text: #FAFAFA;
-    
-    --text: #09090B;
-    --muted: #52525B;
-    
-    --accent: #065F46;
-    --accent-hover: #047857;
-    
-    --divider: #E4E4E7;
-}
-
 
 /* ======================================================
    TYPOGRAPHY
@@ -49,12 +32,6 @@
     --font-body: "IBM Plex Sans", sans-serif;
     --font-mono: "Geist Mono", monospace;
 } */
-
-:root {
-    --font-heading: "Fraunces", serif;
-    --font-body: "Plus Jakarta Sans", -apple-system, sans-serif;
-    --font-mono: "JetBrains Mono", monospace;
-}
 
 
 /* ======================================================
@@ -76,19 +53,44 @@
    --divider: #2E3947;
 } */
 
-html[data-theme="dark"] {   
-    --bg: #09090B;
+:root {
+    --font-heading: "Fraunces", serif;
+    --font-body: "Inter", -apple-system, sans-serif;
+    --font-mono: "JetBrains Mono", monospace;
+
+    /* ======================================================
+       LIGHT THEME - Crisp Off-White & Deep Wine
+       ====================================================== */
+    --bg: #FAF8F8;
+    --hover-bg: #F2ECEE;
     
-    --hover-bg: #18181B;
+    --hero-bg: #2B1820;      /* Deep wine hero container */
+    --hero-text: #FAF8F8;
     
-    --hero-bg: #18181B;
-    --hero-text: #FAFAFA;
+    --text: #1C1418;         /* Warm off-black with subtle plum base */
+    --muted: #6B5B63;
     
-    --text: #F4F4F5;
-    --muted: #A1A1AA;
+    --accent: #881337;       /* Rich Burgundy */
+    --accent-hover: #9F1239;
     
-    --accent: #10B981;
-    --accent-hover: #34D399;
+    --divider: #E8DFE3;
+}
+
+html[data-theme="dark"] {
+    /* ======================================================
+       DARK THEME - Warm Plum Espresso (No Cold Grays)
+       ====================================================== */
+    --bg: #140E12;           /* Warm, dark plum black canvas */
+    --hover-bg: #22181E;
     
-    --divider: #27272A;
+    --hero-bg: #22181E;
+    --hero-text: #F3EAEF;
+    
+    --text: #F3EAEF;         /* Soft rose-white text (no harsh pure white) */
+    --muted: #A3929A;
+    
+    --accent: #FB7185;       /* Muted Rose/Burgundy highlight for dark mode */
+    --accent-hover: #FDA4AF;
+    
+    --divider: #33232C;
 }
