@@ -3,11 +3,11 @@
    Design System
    ========================================================== */
 
-:root {   
-    /* ======================================================
-       COLOR PALETTE
-       ====================================================== */
+/* ======================================================
+   COLOR PALETTE
+   ====================================================== */
    
+/* :root {   
    --bg: #FAFAF8;
    --hover-bg: #F2F4F6;
    
@@ -21,21 +21,47 @@
    --accent-hover: #416F9E;
    
    --divider: #DCE6F2;
+} */
+
+:root {   
+    --bg: #F7F4EF;
+    
+    --hover-bg: #EFECE6;
+    
+    --hero-bg: #1C1917;
+    --hero-text: #F7F4EF;
+    
+    --text: #2D2B2A;
+    --muted: #6E6864;
+    
+    --accent: #991B1B;
+    --accent-hover: #7F1D1D;
+    
+    --divider: #E2DDD5;
 }
 
-:root {
-    /* ======================================================
-       TYPOGRAPHY
-       ====================================================== */
 
+/* ======================================================
+   TYPOGRAPHY
+   ====================================================== */
+
+/* :root {
     --font-body: "IBM Plex Sans", sans-serif;
     --font-mono: "Geist Mono", monospace;
+} */
+
+:root {
+    --font-heading: "Lora", serif;    
+    --font-body: "Source Serif 4", Georgia, serif;
+    --font-mono: "Source Code Pro", monospace;
 }
+
 
 /* ======================================================
    DARK MODE
    ====================================================== */
-html[data-theme="dark"] {
+
+/* html[data-theme="dark"] {
    --bg: #15191F;
    --hover-bg: #242321;
 
@@ -48,4 +74,21 @@ html[data-theme="dark"] {
    --accent: #8DB7EA;
    
    --divider: #2E3947;
+} */
+
+html[data-theme="dark"] {   
+    --bg: #1C1917;
+    
+    --hover-bg: #292524;
+    
+    --hero-bg: #292524;
+    --hero-text: #F7F4EF;
+    
+    --text: #E7E5E4;
+    --muted: #A8A29E;
+    
+    --accent: #F87171;
+    --accent-hover: #EF4444;
+    
+    --divider: #3F3F46;
 }
