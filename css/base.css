@@ -16,10 +16,10 @@ body {
 section { margin-bottom: 6rem; }
 .section-title { margin: 0 0 1rem; padding: 1rem 0; }
 
-h1 { font-size: 1.500rem; font-weight: 600; color: var(--accent); }
-h2 { font-size: 1.250rem; font-weight: 600; color: var(--accent); }
-h3 { font-size: 1.125rem; font-weight: 500; color: var(--accent); }
-h4 { font-size: 1.000rem; font-weight: 500; color: var(--accent); }
+h1 { font-family: var(--font-heading); font-size: 1.500rem; font-weight: 600; color: var(--accent); }
+h2 { font-family: var(--font-heading); font-size: 1.250rem; font-weight: 600; color: var(--accent); }
+h3 { font-family: var(--font-heading); font-size: 1.125rem; font-weight: 500; color: var(--accent); }
+h4 { font-family: var(--font-heading); font-size: 1.000rem; font-weight: 500; color: var(--accent); }
 
 small { font-size: 0.750rem; }
 
