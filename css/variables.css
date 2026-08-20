@@ -54,46 +54,48 @@
 } */
 
 :root {
-    --font-heading: "Space Grotesk", -apple-system, sans-serif;
+    --font-heading: "Syne", -apple-system, sans-serif;
     --font-body: "Inter", -apple-system, sans-serif;
     --font-mono: "JetBrains Mono", monospace;
 
     /* ======================================================
-       LIGHT MODE - Clean, Modern & Sharp
+       LIGHT MODE - Softened Hero & Crisp Structure
        ====================================================== */
     --bg: #FAFAFA;
     --hover-bg: #F0EDED;
     
-    --hero-bg: #211218;         /* High-contrast deep plum hero */
+    /* Hero: Lighter, richer wine tint (less harsh dark block) */
+    --hero-bg: #3B121F;         
     --hero-text: #FAFAFA;
     
-    --text: #18181B;            /* Crisp off-black */
-    --muted: #6B686A;
+    --text: #18181B;
+    --muted: #52525B;
     
-    --accent: #801835;          /* Sophisticated Wine / Burgundy */
-    --accent-hover: #9E1F43;
+    --accent: #9F1239;          /* Bold Burgundy */
+    --accent-hover: #BE123C;
     
-    --divider: #E4E4E7;
+    /* Higher-contrast borders so divisions are clearly visible */
+    --divider: #D4D4D8;
 }
 
-[data-theme="dark"] {
+html[data-theme="dark"] {
     /* ======================================================
-       DARK MODE - High Contrast & Visible Hero Structure
+       DARK MODE - Matching Burgundy Palette + High-Contrast Structure
        ====================================================== */
-    --bg: #0F0E11;              /* Deep dark obsidian base */
-    --hover-bg: #232029;
+    --bg: #120D10;              /* Dark base with subtle wine tone */
+    --hover-bg: #2B1D23;
     
-    /* Hero container: Clearly lifted background with distinct contrast */
-    --hero-bg: #1B1722;         
-    --hero-text: #F4F4F5;
+    /* Hero: Clearly lifted surface (2 steps lighter than bg) */
+    --hero-bg: #23161C;         
+    --hero-text: #FAFAFA;
     
-    --text: #E4E4E7;            /* Soft white for primary reading */
-    --muted: #938F99;
+    --text: #F4F4F5;            
+    --muted: #A1A1AA;
     
-    /* Accent: Muted Warm Amber/Champagne (Subtle, non-aggressive elegance) */
-    --accent: #E2B36E;          
-    --accent-hover: #F0C78A;
+    /* Accent: Radiant Rose-Wine (Matches light mode's burgundy identity) */
+    --accent: #FB7185;          
+    --accent-hover: #F43F5E;
     
-    /* Distinct divider to define sections clearly */
-    --divider: #2D2836;
+    /* Punchy divider contrast (prevents elements from blending together) */
+    --divider: #443038;
 }
