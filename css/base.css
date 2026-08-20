@@ -18,8 +18,8 @@ section { margin-bottom: 6rem; }
 
 h1 { font-family: var(--font-heading); font-size: 1.500rem; font-weight: 800; color: var(--accent); }
 h2 { font-family: var(--font-heading); font-size: 1.250rem; font-weight: 800; color: var(--accent); }
-h3 { font-family: var(--font-heading); font-size: 1.125rem; font-weight: 700; color: var(--accent); }
-h4 { font-family: var(--font-heading); font-size: 1.000rem; font-weight: 700; color: var(--accent); }
+h3 { font-family: var(--font-heading); font-size: 1.125rem; font-weight: 600; color: var(--accent); }
+h4 { font-family: var(--font-heading); font-size: 1.000rem; font-weight: 600; color: var(--accent); }
 
 small { font-size: 0.750rem; }
 
