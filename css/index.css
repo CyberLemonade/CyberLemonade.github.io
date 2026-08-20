@@ -22,7 +22,11 @@
 }
 
 .hero-name { color: var(--hero-text); margin: 0 0 0; }
-.hero-affiliation { color: var(--hero-text); font-weight: 400; margin: 0.5rem 0 0; }
+.hero-affiliation { 
+   color: var(--hero-text); 
+   /* font-weight: 400; */
+   margin: 0.5rem 0 0;
+}
 .hero-location { opacity: 0.85; margin: 0.5rem 0 0; }
 
 .hero-links { 
