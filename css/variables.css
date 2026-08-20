@@ -28,10 +28,11 @@
    TYPOGRAPHY
    ====================================================== */
 
-/* :root {
-    --font-body: "IBM Plex Sans", sans-serif;
-    --font-mono: "Geist Mono", monospace;
-} */
+:root {
+   --font-body: "IBM Plex Sans", sans-serif;
+   --font-heading: "IBM Plex Sans", sans-serif;
+   --font-mono: "Geist Mono", monospace;
+}
 
 
 /* ======================================================
@@ -54,37 +55,32 @@
 } */
 
 :root {
-    /* Fonts */
-   --font-body: "IBM Plex Sans", sans-serif;
-   --font-heading: "IBM Plex Sans", sans-serif;
-   --font-mono: "Geist Mono", monospace;
+   --bg: #ffffff;
+   --hover-bg: #f0ece6;
 
-    /* Light */
-    --bg: #F4F0E8;
-    --text: #252525;
-    --muted: #756F65;
-
-    --hero-bg: #174A7E;
-
-    --accent: #B08A3E;
-    --accent-hover: #8F6D2D;
-
-    --divider: #C9C1B5;
-    --hover-bg: #EAE4D9;
+   --hero-bg: #17365d;
+   --hero-text: #f4f0e8;
+   
+   --text: #292725;
+   --muted: #77716a;
+   
+   --accent: #7a263a;
+   
+   --divider: #d2cbc1;
 }
 
 html[data-theme="dark"] {
-    /* Dark */
-    --bg: #171614;
-    --text: #E8E1D5;
-    --muted: #AAA093;
-
-    --hero-bg: #203B58;
-
-    --accent: #D0AA55;
-    --accent-hover: #E0BD6C;
-
-    --divider: #39342D;
-    --hover-bg: #24211D;
+   --bg: #171619;
+   --hover-bg: #242126;
+   
+   --hero-bg: #233e60;
+   --hero-text: #f4f0e8;
+   
+   --text: #e6e0d8;
+   --muted: #a49b91;
+   
+   --accent: #b35a6c;
+   
+   --divider: #373238;
 }
 
