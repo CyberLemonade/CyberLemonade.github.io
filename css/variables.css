@@ -54,43 +54,46 @@
 } */
 
 :root {
-    --font-heading: "Fraunces", serif;
+    --font-heading: "Space Grotesk", -apple-system, sans-serif;
     --font-body: "Inter", -apple-system, sans-serif;
     --font-mono: "JetBrains Mono", monospace;
 
     /* ======================================================
-       LIGHT THEME - Crisp Off-White & Deep Wine
+       LIGHT MODE - Clean, Modern & Sharp
        ====================================================== */
-    --bg: #FAF8F8;
-    --hover-bg: #F2ECEE;
+    --bg: #FAFAFA;
+    --hover-bg: #F0EDED;
     
-    --hero-bg: #2B1820;      /* Deep wine hero container */
-    --hero-text: #FAF8F8;
+    --hero-bg: #211218;         /* High-contrast deep plum hero */
+    --hero-text: #FAFAFA;
     
-    --text: #1C1418;         /* Warm off-black with subtle plum base */
-    --muted: #6B5B63;
+    --text: #18181B;            /* Crisp off-black */
+    --muted: #6B686A;
     
-    --accent: #881337;       /* Rich Burgundy */
-    --accent-hover: #9F1239;
+    --accent: #801835;          /* Sophisticated Wine / Burgundy */
+    --accent-hover: #9E1F43;
     
-    --divider: #E8DFE3;
+    --divider: #E4E4E7;
 }
 
-html[data-theme="dark"] {
+[data-theme="dark"] {
     /* ======================================================
-       DARK THEME - Warm Plum Espresso (No Cold Grays)
+       DARK MODE - High Contrast & Visible Hero Structure
        ====================================================== */
-    --bg: #140E12;           /* Warm, dark plum black canvas */
-    --hover-bg: #22181E;
+    --bg: #0F0E11;              /* Deep dark obsidian base */
+    --hover-bg: #232029;
     
-    --hero-bg: #22181E;
-    --hero-text: #F3EAEF;
+    /* Hero container: Clearly lifted background with distinct contrast */
+    --hero-bg: #1B1722;         
+    --hero-text: #F4F4F5;
     
-    --text: #F3EAEF;         /* Soft rose-white text (no harsh pure white) */
-    --muted: #A3929A;
+    --text: #E4E4E7;            /* Soft white for primary reading */
+    --muted: #938F99;
     
-    --accent: #FB7185;       /* Muted Rose/Burgundy highlight for dark mode */
-    --accent-hover: #FDA4AF;
+    /* Accent: Muted Warm Amber/Champagne (Subtle, non-aggressive elegance) */
+    --accent: #E2B36E;          
+    --accent-hover: #F0C78A;
     
-    --divider: #33232C;
+    /* Distinct divider to define sections clearly */
+    --divider: #2D2836;
 }
