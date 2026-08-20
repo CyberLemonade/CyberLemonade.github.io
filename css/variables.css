@@ -30,8 +30,8 @@
 
 :root {
    --font-body: "IBM Plex Sans", sans-serif;
-   --font-heading: "Raleway", sans-serif;
-   /* --font-heading: "IBM Plex Sans", sans-serif; */
+   /* --font-heading: "Raleway", sans-serif; */
+   --font-heading: "IBM Plex Sans", sans-serif;
    --font-mono: "Geist Mono", monospace;
 }
 
