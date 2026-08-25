@@ -39,12 +39,12 @@ nav a:hover { color: var(--accent); }
     margin-bottom: 1.5rem;
 }
 
-.section-header::after {
+/* .section-header::after {
     content: "";
     flex: 1;
     height: 1px;
     background: var(--divider);
-}
+} */
 
 /* ==========================================================
    FOOTER
