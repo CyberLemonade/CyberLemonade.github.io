@@ -114,7 +114,7 @@
 
 .property-testing summary {
     cursor: pointer;
-    /* font-family: var(--font-mono); */
+    font-family: var(--font-mono);
     color: var(--muted);
 }
 
