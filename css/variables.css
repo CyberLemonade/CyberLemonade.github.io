@@ -96,8 +96,8 @@ html[data-theme="dark"] {
    --text: #F2E3D5;
    --muted: #AFA69E;
    
-   --accent: #BFAF9B;
-   --accent-hover: #F2A172;
+   --accent: #F2A172;
+   --accent-hover: #BFAF9B;
    
    --divider: #39342E;
 }
