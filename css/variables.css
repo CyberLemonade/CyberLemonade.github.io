@@ -93,11 +93,11 @@ html[data-theme="dark"] {
    --hero-bg: #735B4D;
    --hero-text: #F7F3EA;
    
-   --text: #F2EDE6;
+   --text: #F2E3D5;
    --muted: #AFA69E;
    
-   --accent: #F2E3D5;
-   --accent-hover: #BFAF9B;
+   --accent: #BFAF9B;
+   --accent-hover: #F2A172;
    
    --divider: #39342E;
 }
