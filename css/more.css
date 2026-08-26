@@ -36,5 +36,5 @@ main p { line-height: 2.0; }
     display: grid;
     grid-template-columns: 7fr 5fr;
     gap: 2rem;
-    margin: 4rem 0;
+    margin: 3rem 0;
 }
