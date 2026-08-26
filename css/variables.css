@@ -73,7 +73,7 @@
 }
 
 html[data-theme="dark"] {
-   --bg: #0D0D0D;
+   /* --bg: #0D0D0D;
    --hover-bg: #211E1A;
    
    --hero-bg: #403918;
@@ -84,6 +84,20 @@ html[data-theme="dark"] {
    
    --accent: #F2A172;
    --accent-hover: #F2865E;
+   
+   --divider: #39342E; */
+
+   --bg: #0D0D0D;
+   --hover-bg: #211E1A;
+   
+   --hero-bg: #735B4D;
+   --hero-text: #F7F3EA;
+   
+   --text: #F2EDE6;
+   --muted: #AFA69E;
+   
+   --accent: #F2E3D5;
+   --accent-hover: #BFAF9B;
    
    --divider: #39342E;
 }
